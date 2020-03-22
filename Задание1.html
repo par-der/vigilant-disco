@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Название документа</title>
+    <style>
+      #navbar {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        
+        position: relative;
+        width: 358px;
+        height: 196px;
+
+        background: #cccccc;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 5px 5px 0px rgb(0,0,0,0.25);
+        border-radius: 10px;
+      }
+      #navbar li {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+
+        position: static;
+        width: 358px;
+        height: 36px;
+        left: 0px;
+        top: 0px;
+
+        position: static;
+        height: 16px;
+        left: 20px;
+        right: 20px;
+        top: calc(50% - 16px/2);
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        line-height: 1;
+
+        
+        color: #000000;
+
+        flex: none;
+        order: 0;
+        margin: 0px 0px;
+      }
+      #navbar a {
+        
+        color: #000000;
+        padding: 0;
+        text-decoration: none;
+      }
+      h1{
+        background: #9c9c9c;
+        margin: 0px 0px;
+        float: right;
+      }
+
+    </style>
+  </head>
+ 
+  <body>
+   
+    <ul id="navbar">
+      <li><a href="#">Элемент меню</a></li>
+      <h1><li><a href="#">Элемент меню с наведением</a></li></h1>
+      <li><a href="#">Еще один элемент у которого очень длинный текст</a></li>
+      <li><a href="#">Еще один элемент</a></li>
+      <li><a href="#">Еще один элемент</a></li>
+    </ul>
+ 
+  </body>
+</html>
+
