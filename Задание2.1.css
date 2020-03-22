@@ -1,0 +1,137 @@
+.field {
+    background: #9c9c9c;
+    width: 400px;
+    height: 448px;
+    border: 2px solid #626262;
+    font-family: sans-serif;
+}
+
+h1 {
+	color: #000000;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 37px;
+
+	margin-top: 20px;
+  padding-left: 20px;
+}
+
+.forma {
+	padding-left: 20px;
+}
+
+input[type="email"] {
+	width: 360px;
+	height: 28px;
+	background: #FFFFFF;
+	border: 1px solid #9c9c9c;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+
+input[type="password"] {
+	width: 173px;
+	height: 28px;
+	margin-right: 10px;
+	margin-left: 0px;
+	margin-bottom: 15px;
+	background: #FFFFFF;
+	border: 1px solid #9c9c9c;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+
+input[type="text"] {
+  width: 360px;
+  height: 28px;
+  background: #FFFFFF;
+  border: 1px solid #9C9C9C;
+  box-sizing: border-box;
+  border-radius: 3px;
+
+}
+
+input[type="age"] {
+  width: 175px;
+  height: 28px;
+  background: #FFFFFF;
+  border: 1px solid #9C9C9C;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.psw {
+	display: inline-block;
+	float: center;
+}
+
+input[type="submit"] {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 12px;
+
+
+  width: 95px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #CCCCCC;
+
+  background: #616161;
+  border: 1px solid #616161;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+button {
+  display: flex;
+  
+  padding: 8px 12px;
+  float: right;
+
+  width: 74px;
+  height: 32px;
+
+  background: #CCCCCC;
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+  border-radius: 3px;
+  position: absolute;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #616161;
+  
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0 auto;
+}
+
+p {
+	height: 16px;
+	left: 0px;
+	top: 0px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	color: #3a3a3a;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
